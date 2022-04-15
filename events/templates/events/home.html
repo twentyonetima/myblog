@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Album example · Bootstrap v5.1</title>
+    <title>My blog</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
@@ -56,8 +56,8 @@
         <div class="w-100">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="ml-auto navbar-nav">
-              <a class="nav-link " aria-current="page" href="#">About Me</a>
-              <a class="nav-link" href="https://twitter.com/Timofey50359105">Twitter</a>
+              <a class="nav-link " aria-current="page" href="{% url 'about' %}">About Me</a>
+              <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Timofey50359105">Twitter</a>
               <a class="nav-link" href="{% url 'blog' %}">Blog</a>
               <a class="nav-link disabled">Disabled</a>
             </div>
